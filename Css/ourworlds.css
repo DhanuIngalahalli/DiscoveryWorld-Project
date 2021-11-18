@@ -1,0 +1,101 @@
+body, html {
+    margin: 0;
+    padding: 0;
+   background-color: black;
+   
+}
+* {
+    box-sizing: border-box;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo  img {
+    width: 100%;
+}
+
+.logo-name{
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    font-family:Arial;
+}
+
+.logo-text1{
+    font-size: 30px;
+    color: whitesmoke;
+    text-align: center;
+}
+.logo-text2{
+    text-transform: uppercase;
+    font-size: 15px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.nav {
+    display: flex;
+}
+
+.options{
+    text-align: center;
+    display: flex;
+    margin: 3vh 5vw ;
+}
+
+.nav img {
+    width: 4%;
+    height: 80%;
+    padding-top: 0.5vw;
+}
+
+.options div {
+    list-style-type:none;
+    padding-right: 4vw;
+    font-size: calc(15px + 0.3vw);
+    min-width: 10vw;
+}
+
+.options div {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    width: 100%;
+    grid-gap: 4rem 1rem;
+    padding:8rem 1rem 6rem;
+    
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    height: 100%;
+    width: 100%;
+}
+
+.first-line {
+    color: whitesmoke;
+    font-family: Calibri;
+    font-size: calc(12.42105px + .31579vw);;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.second-line {
+    color: #837f7f;
+    margin: 0;
+    font-family: Calibri;
+    font-size: 15px;
+    text-transform: capitalize;
+}
